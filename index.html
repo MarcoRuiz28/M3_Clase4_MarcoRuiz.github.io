@@ -5,8 +5,169 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final</title>
+
+    <link rel="shortcut icon" href="images/icons/favicon.png" type="image/x-icon">
+
+    <!--Referencias de bootstrap-->
+    <link rel="stylesheet" href="dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <script src="dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Proyecto Final</h1>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark" data-bs-theme="dark">
+
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+                <img src="images/icons/favicon.png" alt="Logotipo" width="30">
+                Miportafolio
+            </a>
+            <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#MenuContenido"
+            aria-cotrols="MenuContenido"    
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-togler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="MenuContenido">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Proyectos">Mis Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Productos">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        </nav>
+
+    </header>
+    <main>
+       <div class="mb-5">
+            <div class="container pt-5">
+                <h1>Marco Ruiz</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, magni? Nam perferendis quia fugit accusantium. Saepe debitis nisi doloribus iure veniam voluptates sint dolorum delectus, tempore, repellendus non fugiat ipsum?</p>
+                <button class="btn btn-primary">Registrarme</button>
+                <button class="btn btn-success">Saber mas...</button>
+            </div>
+       </div>
+       <section id="Proyectos" class="mb-5">
+        
+            <div class="container">
+                <h2>Proyectos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quae, voluptas et perferendis aperiam neque dolorum eius dolore vitae. Cum veniam at minus, quo incidunt tenetur perspiciatis placeat officia explicabo!</p>
+                <div class="row">
+                    <div class="col">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="/images/img01_sm.jpg" srcset="/images/img01_sm.jpg 480w, /images/img01_md.jpg 800w" alt="Diseño web">
+                            <div class="card-body">
+                                <h5>Diseño web</h5>
+                            </div>
+                                
+                                </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="/images/img02_sm.jpg" srcset="/images/img02_sm.jpg 480w, /images/img02_md.jpg 800w" alt="Base de datos">
+                            <div class="card-body">
+                                <h5>Base de datos</h5>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="/images/img03_sm.jpg" srcset="/images/img03_sm.jpg 480w, /images/img03_md.jpg 800w" alt="Aplicaciones moviles">
+                            <div class="card-body">
+                                <h5>Aplicaciones moviles</h5>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="/images/img04_sm.jpg" srcset="/images/img04_sm.jpg 480w, /images/img04_md.jpg 800w" alt="Servicios">
+                            <div class="card-body">
+                                <h5>Servicios</h5>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+               
+            </div>
+
+       </section>
+       <section id="Productos" class="mb-5">
+        <div class="container">
+            <h2>Productos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quae, voluptas et perferendis aperiam neque dolorum eius dolore vitae. Cum veniam at minus, quo incidunt tenetur perspiciatis placeat officia explicabo!</p>
+        <div class="row">
+            <div class="col">
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-airplane-fill" viewBox="0 0 16 16">
+                    <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Z"/>
+                  </svg>
+                    <h5>Executive</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas tempore nostrum officia quaerat nihil aspernatur recusandae voluptatibus dignissimos repellendus dolores dolor cumque, beatae in placeat delectus reiciendis dicta modi corporis?</p>
+            </div>
+            <div class="col">
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                    <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                  </svg>
+                <h5>Alliance</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit sequi labore amet totam iusto repudiandae blanditiis? Sunt maiores a mollitia doloribus laudantium officia est dolor cupiditate, corrupti impedit, distinctio ullam?</p>
+                
+            </div>
+            <div class="col">
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-arrow-through-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l3.103-3.104a.5.5 0 1 1 .708.708L4.5 12.207V14a.5.5 0 0 1-.146.354l-1.5 1.5ZM16 3.5a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182A23.825 23.825 0 0 1 5.8 12.323L8.31 9.81a1.5 1.5 0 0 0-2.122-2.122L3.657 10.22a8.827 8.827 0 0 1-1.039-1.57c-.798-1.576-.775-2.997-.213-4.093C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3Z"/>
+                  </svg>
+                <h5>Company</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non aliquam, cupiditate minima officiis veniam, et harum neque magni reiciendis corporis dolore fuga alias possimus amet incidunt asperiores commodi aut reprehenderit!</p>
+                
+            </div>
+        </div>
+
+       </section>
+       <section id="Contacto" class="mb-5">
+        <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Contacto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi veritatis sed, magni ex voluptatibus saepe amet quibusdam eveniet, non, cumque architecto aut? Sunt nam, quaerat dolor voluptatum natus culpa? Sit!</p>
+            </div>
+            <div class="col">
+                <form action="">
+                    <label for="contacto_email">Escribe tu correo</label>
+                    <input type="email" id="contacto_email" class="form-control form-control-sm" placeholder="name@domain.com">
+                    <label for="contacto_message">Escribe tu comentario</label>
+                    <textarea name="contacto_message" id="contacto_message" class="form-control form-control-sm"></textarea>
+                    <input type="submit" value="Enviar" class="btn btn-success mt-4">
+                </form>
+                </div>
+            </div>
+            
+        </div>
+
+       </section>
+
+    </main>
+    <footer>
+        <div class="container">
+            &copy;2023 | Marco Ruiz | INTENSITY
+
+        </div>
+
+    </footer>
+
 </body>
 </html>
