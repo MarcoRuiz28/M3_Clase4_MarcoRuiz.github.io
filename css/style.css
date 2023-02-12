@@ -1,4 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 .card img{
     height: 200px;
     object-fit: cover;
+}
+
+h1{
+    font-family: 'Kanit', sans-serif;
+    color: transparent;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: -0.0015em;
+    background-image: linear-gradient(180deg, #0e1dea96, #0111a6);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+body{
+    background-image: linear-gradient(180deg, #e4e5e673, #012aa64b), url(/images/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#Productos{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgba(91, 91, 228, 0.795);
+    
+    color: white;
+}
+
+#Productos .col{
+    text-align: center;
+}
+
+footer{
+    padding-top: 3rem;
+    background-color: #00000082;
+    backdrop-filter: blur(5px);
+    color: white;
+    height: 150px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#Banner{
+    background-image: linear-gradient(180deg, #e4e5e673, #012aa64b);
+    backdrop-filter: blur(5px);
 }
